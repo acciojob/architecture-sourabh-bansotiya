@@ -1,9 +1,23 @@
 /*  your css code here. If applicable */
-.imageContainer{
-	width: 200px;
-	justify-content: center;
+/*  your css code here. If applicable */
+body {
+  width: 1100px;
+  margin: 0 auto; /* This centers the content horizontally */
+	background-color: lightgrey;
 }
-.txt{
-	width: 600px;
-	text-align: center
+
+table {
+  width: 100%; /* Set the table width to 100% of its container */
+  border-collapse: collapse; /* Collapse table borders */
+}
+
+/* Target the first and last column */
+table td:first-child,
+table td:last-child {
+  width: 200px; /* Set the width of the first and last column */
+}
+
+/* Target the middle column */
+table td:nth-child(2) {
+  width: 600px; /* Set the width of the middle column */
 }
